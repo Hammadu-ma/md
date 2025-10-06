@@ -1,0 +1,426 @@
+{
+    "Anatomy Fundamentals": [
+        {
+            "id": 101,
+            "question": "Which bone is commonly known as the collarbone?",
+            "options": ["Scapula", "Clavicle", "Humerus", "Sternum"],
+            "answer": 1,
+            "correctAnswer": "Clavicle",
+            "explanation": "The clavicle, also known as the collarbone, is a long bone that serves as a strut between the shoulder blade and the sternum.",
+            "whyNotOtherOptions": {
+                "a": "Scapula is the shoulder blade",
+                "c": "Humerus is the upper arm bone", 
+                "d": "Sternum is the breastbone"
+            },
+            "relatedQuestions": ["102"],
+            "category": "Anatomy Fundamentals",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 102,
+            "question": "The mitral valve is located between which two chambers of the heart?",
+            "options": [
+                "Right atrium and right ventricle",
+                "Left atrium and left ventricle", 
+                "Right ventricle and pulmonary artery",
+                "Left ventricle and aorta"
+            ],
+            "answer": 1,
+            "correctAnswer": "Left atrium and left ventricle",
+            "explanation": "The mitral valve (bicuspid valve) prevents backflow of blood from the left ventricle to the left atrium.",
+            "whyNotOtherOptions": {
+                "a": "Tricuspid valve is between right atrium and ventricle",
+                "c": "Pulmonary valve is between right ventricle and pulmonary artery",
+                "d": "Aortic valve is between left ventricle and aorta"
+            },
+            "relatedQuestions": ["101"],
+            "category": "Anatomy Fundamentals",
+            "difficulty": "Medium"
+        }
+    ],
+    "Physiology": [
+        {
+        "id": 1,
+        "question": "Which one of the following causes free radicals to form, potentially putting you at greater risk of heart disease?",
+        "options": [
+            "High-fat foods",
+            "Taking high amounts of a single antioxidant",
+            "Exercise",
+            "All of the above",
+            "None of the above"
+        ],
+        "answer": 0,
+        "correctAnswer": "High-fat foods",
+        "explanation": "High-fat foods, particularly those rich in saturated and trans fats, promote oxidative stress by generating free radicals, which can damage vascular tissues and contribute to heart disease. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 10, p. 362.",
+        "whyNotOtherOptions": {
+            "b": "High doses of antioxidants (e.g., vitamin E) may disrupt redox balance but are not a primary cause of free radical formation.",
+            "c": "Moderate exercise reduces oxidative stress by enhancing antioxidant defenses.",
+            "d": "Not all options cause free radicals.",
+            "e": "High-fat foods do cause free radicals."
+        },
+        "relatedQuestions": ["12 (antioxidants)", "13 (superoxide dismutase)"],
+        "category": "Oxidative Stress",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 2,
+        "question": "Which protein is different regarding its biological function in the body?",
+        "options": [
+            "Prion",
+            "Ricin",
+            "Snake venom toxin",
+            "Thrombin"
+        ],
+        "answer": 0,
+        "correctAnswer": "Prion",
+        "explanation": "Prions are infectious, misfolded proteins that cause neurodegenerative diseases (e.g., Creutzfeldt-Jakob disease) by inducing misfolding of other proteins, unlike ricin (toxin inhibiting protein synthesis), snake venom toxin (disrupts physiological functions), and thrombin (enzyme in blood clotting). Reference: *Molecular Biology of the Cell, 6th ed.*, Chapter 13, p. 762.",
+        "whyNotOtherOptions": {
+            "b": "Ricin is a toxin, like snake venom.",
+            "c": "Snake venom toxin disrupts normal physiology, similar to ricin.",
+            "d": "Thrombin is an enzyme with a physiological role."
+        },
+        "relatedQuestions": ["48 (prion)"],
+        "category": "Protein Function",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is a regulatory protein?",
+        "options": [
+            "Calmodulin",
+            "Insulin",
+            "p53",
+            "All of the above"
+        ],
+        "answer": 3,
+        "correctAnswer": "All of the above",
+        "explanation": "Calmodulin regulates calcium-dependent processes, insulin regulates metabolism as a hormone, and p53 regulates the cell cycle and DNA repair. All are regulatory proteins. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 12, p. 410; Chapter 15, p. 551; Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "a": "Calmodulin is regulatory, but not the only one.",
+            "b": "Insulin is regulatory, but not the only one.",
+            "c": "p53 is regulatory, but not the only one."
+        },
+        "relatedQuestions": ["14 (p53)", "15 (p53)"],
+        "category": "Regulatory Proteins",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following biomolecule proteins is the source of light in fireflies?",
+        "options": [
+            "Lucinase",
+            "Luciferin",
+            "Luciferase",
+            "Photoprotein"
+        ],
+        "answer": 2,
+        "correctAnswer": "Luciferase",
+        "explanation": "Luciferase is the enzyme that catalyzes the oxidation of luciferin, producing bioluminescence in fireflies. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 6, p. 195.",
+        "whyNotOtherOptions": {
+            "a": "Lucinase is not a recognized term.",
+            "b": "Luciferin is the substrate, not the enzyme.",
+            "d": "Photoproteins are found in other organisms (e.g., jellyfish)."
+        },
+        "relatedQuestions": ["47 (bioluminescence)"],
+        "category": "Enzyme Function",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 5,
+        "question": "Which of the following plasma proteins is involved in preventing Fenton reaction (iron/copper catalyzed free radical damage)?",
+        "options": [
+            "Ceruloplasmin",
+            "Haptoglobin",
+            "Transferrin",
+            "Ferritin"
+        ],
+        "answer": 0,
+        "correctAnswer": "Ceruloplasmin",
+        "explanation": "Ceruloplasmin, a copper-binding plasma protein, oxidizes Fe²⁺ to Fe³⁺, preventing the Fenton reaction, which generates harmful hydroxyl radicals. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 22, p. 790.",
+        "whyNotOtherOptions": {
+            "b": "Haptoglobin binds hemoglobin, not iron/copper.",
+            "c": "Transferrin transports iron but does not directly prevent Fenton reactions.",
+            "d": "Ferritin stores iron but does not catalyze oxidation."
+        },
+        "relatedQuestions": ["1 (free radicals)", "12 (antioxidants)"],
+        "category": "Oxidative Stress",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 6,
+        "question": "Which protein (enzyme) is the first to cut in Base Excision Repair (BER) mechanism?",
+        "options": [
+            "DNA glycosylase",
+            "AP endonuclease",
+            "Phosphodiesterase",
+            "DNA ligase"
+        ],
+        "answer": 0,
+        "correctAnswer": "DNA glycosylase",
+        "explanation": "DNA glycosylase initiates BER by recognizing and removing damaged bases, creating an abasic (AP) site. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "b": "AP endonuclease cuts after glycosylase.",
+            "c": "Phosphodiesterase is not involved in BER.",
+            "d": "DNA ligase seals the final nick."
+        },
+        "relatedQuestions": ["45 (BER)"],
+        "category": "DNA Repair",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is NOT true about the human genome?",
+        "options": [
+            "Nuclear genome takes the 'lion’s share' of total DNA",
+            "Most of mitochondrial genome is non-coding ('idle')",
+            "Mitochondrial DNA is circular and maternally inherited",
+            "Nuclear DNA contains both exons and introns"
+        ],
+        "answer": 1,
+        "correctAnswer": "Most of mitochondrial genome is non-coding ('idle')",
+        "explanation": "The mitochondrial genome is compact, with minimal non-coding regions; most of its DNA codes for genes. The other statements are true: nuclear DNA is the majority, mitochondrial DNA is circular and maternally inherited, and nuclear DNA has exons and introns. Reference: *Molecular Biology of the Cell, 6th ed.*, Chapter 14, p. 815.",
+        "whyNotOtherOptions": {
+            "a": "Nuclear DNA is the majority of the genome.",
+            "c": "Mitochondrial DNA is circular and maternally inherited.",
+            "d": "Nuclear DNA contains exons and introns."
+        },
+        "relatedQuestions": ["9 (DNA repair disorders)"],
+        "category": "Genomics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 8,
+        "question": "Most amino acids are coded by more than one codon, except:",
+        "options": [
+            "Threonine and Tyrosine",
+            "Glycine and Serine",
+            "Methionine and Tryptophan",
+            "Alanine and Valine"
+        ],
+        "answer": 2,
+        "correctAnswer": "Methionine and Tryptophan",
+        "explanation": "The genetic code is degenerate, but methionine (AUG) and tryptophan (UGG) are each coded by only one codon. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 27, p. 975.",
+        "whyNotOtherOptions": {
+            "a": "Threonine and tyrosine have multiple codons.",
+            "b": "Glycine and serine have multiple codons.",
+            "d": "Alanine and valine have multiple codons."
+        },
+        "relatedQuestions": ["None"],
+        "category": "Genetic Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9,
+        "question": "Which of the following is NOT a disorder linked to defective DNA repair mechanisms?",
+        "options": [
+            "Xeroderma pigmentosum",
+            "Hereditary nonpolyposis colon cancer (HNPCC)",
+            "Fanconi’s anemia",
+            "Phenylketonuria"
+        ],
+        "answer": 3,
+        "correctAnswer": "Phenylketonuria",
+        "explanation": "Phenylketonuria (PKU) is caused by a mutation in the PAH gene, leading to defective phenylalanine metabolism, not DNA repair. The others are DNA repair disorders. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "a": "Xeroderma pigmentosum involves nucleotide excision repair defects.",
+            "b": "HNPCC involves mismatch repair defects.",
+            "c": "Fanconi’s anemia involves DNA crosslink repair defects."
+        },
+        "relatedQuestions": ["55 (mismatch repair)"],
+        "category": "DNA Repair",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 10,
+        "question": "A common clinical feature seen in persons affected with a disorder of DNA repair is:",
+        "options": [
+            "Albinism",
+            "Predisposition to cancer",
+            "Excess stability of the genome",
+            "Hyperproduction of immunoglobulins"
+        ],
+        "answer": 1,
+        "correctAnswer": "Predisposition to cancer",
+        "explanation": "Defective DNA repair increases mutation rates, leading to a predisposition to cancer (e.g., in xeroderma pigmentosum or HNPCC). Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "a": "Albinism is due to melanin synthesis defects.",
+            "c": "DNA repair defects cause genomic instability.",
+            "d": "Immunoglobulin production is unrelated."
+        },
+        "relatedQuestions": ["9 (DNA repair disorders)", "55 (mismatch repair)"],
+        "category": "DNA Repair",
+        "difficulty": "Medium"
+    }
+    ],
+    "EMBRYO": [
+        {
+        "id": 1,
+        "question": "Which one of the following causes free radicals to form, potentially putting you at greater risk of heart disease?",
+        "options": [
+            "High-fat foods",
+            "Taking high amounts of a single antioxidant",
+            "Exercise",
+            "All of the above",
+            "None of the above"
+        ],
+        "answer": 0,
+        "correctAnswer": "High-fat foods",
+        "explanation": "High-fat foods, particularly those rich in saturated and trans fats, promote oxidative stress by generating free radicals, which can damage vascular tissues and contribute to heart disease. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 10, p. 362.",
+        "whyNotOtherOptions": {
+            "b": "High doses of antioxidants (e.g., vitamin E) may disrupt redox balance but are not a primary cause of free radical formation.",
+            "c": "Moderate exercise reduces oxidative stress by enhancing antioxidant defenses.",
+            "d": "Not all options cause free radicals.",
+            "e": "High-fat foods do cause free radicals."
+        },
+        "relatedQuestions": ["12 (antioxidants)", "13 (superoxide dismutase)"],
+        "category": "Oxidative Stress",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 2,
+        "question": "Which protein is different regarding its biological function in the body?",
+        "options": [
+            "Prion",
+            "Ricin",
+            "Snake venom toxin",
+            "Thrombin"
+        ],
+        "answer": 0,
+        "correctAnswer": "Prion",
+        "explanation": "Prions are infectious, misfolded proteins that cause neurodegenerative diseases (e.g., Creutzfeldt-Jakob disease) by inducing misfolding of other proteins, unlike ricin (toxin inhibiting protein synthesis), snake venom toxin (disrupts physiological functions), and thrombin (enzyme in blood clotting). Reference: *Molecular Biology of the Cell, 6th ed.*, Chapter 13, p. 762.",
+        "whyNotOtherOptions": {
+            "b": "Ricin is a toxin, like snake venom.",
+            "c": "Snake venom toxin disrupts normal physiology, similar to ricin.",
+            "d": "Thrombin is an enzyme with a physiological role."
+        },
+        "relatedQuestions": ["48 (prion)"],
+        "category": "Protein Function",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following is a regulatory protein?",
+        "options": [
+            "Calmodulin",
+            "Insulin",
+            "p53",
+            "All of the above"
+        ],
+        "answer": 3,
+        "correctAnswer": "All of the above",
+        "explanation": "Calmodulin regulates calcium-dependent processes, insulin regulates metabolism as a hormone, and p53 regulates the cell cycle and DNA repair. All are regulatory proteins. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 12, p. 410; Chapter 15, p. 551; Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "a": "Calmodulin is regulatory, but not the only one.",
+            "b": "Insulin is regulatory, but not the only one.",
+            "c": "p53 is regulatory, but not the only one."
+        },
+        "relatedQuestions": ["14 (p53)", "15 (p53)"],
+        "category": "Regulatory Proteins",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 4,
+        "question": "Which of the following biomolecule proteins is the source of light in fireflies?",
+        "options": [
+            "Lucinase",
+            "Luciferin",
+            "Luciferase",
+            "Photoprotein"
+        ],
+        "answer": 2,
+        "correctAnswer": "Luciferase",
+        "explanation": "Luciferase is the enzyme that catalyzes the oxidation of luciferin, producing bioluminescence in fireflies. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 6, p. 195.",
+        "whyNotOtherOptions": {
+            "a": "Lucinase is not a recognized term.",
+            "b": "Luciferin is the substrate, not the enzyme.",
+            "d": "Photoproteins are found in other organisms (e.g., jellyfish)."
+        },
+        "relatedQuestions": ["47 (bioluminescence)"],
+        "category": "Enzyme Function",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 5,
+        "question": "Which of the following plasma proteins is involved in preventing Fenton reaction (iron/copper catalyzed free radical damage)?",
+        "options": [
+            "Ceruloplasmin",
+            "Haptoglobin",
+            "Transferrin",
+            "Ferritin"
+        ],
+        "answer": 0,
+        "correctAnswer": "Ceruloplasmin",
+        "explanation": "Ceruloplasmin, a copper-binding plasma protein, oxidizes Fe²⁺ to Fe³⁺, preventing the Fenton reaction, which generates harmful hydroxyl radicals. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 22, p. 790.",
+        "whyNotOtherOptions": {
+            "b": "Haptoglobin binds hemoglobin, not iron/copper.",
+            "c": "Transferrin transports iron but does not directly prevent Fenton reactions.",
+            "d": "Ferritin stores iron but does not catalyze oxidation."
+        },
+        "relatedQuestions": ["1 (free radicals)", "12 (antioxidants)"],
+        "category": "Oxidative Stress",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 6,
+        "question": "Which protein (enzyme) is the first to cut in Base Excision Repair (BER) mechanism?",
+        "options": [
+            "DNA glycosylase",
+            "AP endonuclease",
+            "Phosphodiesterase",
+            "DNA ligase"
+        ],
+        "answer": 0,
+        "correctAnswer": "DNA glycosylase",
+        "explanation": "DNA glycosylase initiates BER by recognizing and removing damaged bases, creating an abasic (AP) site. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 25, p. 905.",
+        "whyNotOtherOptions": {
+            "b": "AP endonuclease cuts after glycosylase.",
+            "c": "Phosphodiesterase is not involved in BER.",
+            "d": "DNA ligase seals the final nick."
+        },
+        "relatedQuestions": ["45 (BER)"],
+        "category": "DNA Repair",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 7,
+        "question": "Which of the following is NOT true about the human genome?",
+        "options": [
+            "Nuclear genome takes the 'lion’s share' of total DNA",
+            "Most of mitochondrial genome is non-coding ('idle')",
+            "Mitochondrial DNA is circular and maternally inherited",
+            "Nuclear DNA contains both exons and introns"
+        ],
+        "answer": 1,
+        "correctAnswer": "Most of mitochondrial genome is non-coding ('idle')",
+        "explanation": "The mitochondrial genome is compact, with minimal non-coding regions; most of its DNA codes for genes. The other statements are true: nuclear DNA is the majority, mitochondrial DNA is circular and maternally inherited, and nuclear DNA has exons and introns. Reference: *Molecular Biology of the Cell, 6th ed.*, Chapter 14, p. 815.",
+        "whyNotOtherOptions": {
+            "a": "Nuclear DNA is the majority of the genome.",
+            "c": "Mitochondrial DNA is circular and maternally inherited.",
+            "d": "Nuclear DNA contains exons and introns."
+        },
+        "relatedQuestions": ["9 (DNA repair disorders)"],
+        "category": "Genomics",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 8,
+        "question": "Most amino acids are coded by more than one codon, except:",
+        "options": [
+            "Threonine and Tyrosine",
+            "Glycine and Serine",
+            "Methionine and Tryptophan",
+            "Alanine and Valine"
+        ],
+        "answer": 2,
+        "correctAnswer": "Methionine and Tryptophan",
+        "explanation": "The genetic code is degenerate, but methionine (AUG) and tryptophan (UGG) are each coded by only one codon. Reference: *Lehninger Principles of Biochemistry, 7th ed.*, Chapter 27, p. 975.",
+        "whyNotOtherOptions": {
+            "a": "Threonine and tyrosine have multiple codons.",
+            "b": "Glycine and serine have multiple codons.",
+            "d": "Alanine and valine have multiple codons."
+        },
+        "relatedQuestions": ["None"],
+        "category": "Genetic Code",
+        "difficulty": "Medium"
+    }]
+}
