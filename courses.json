@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "Anatomy Mastery",
+        "icon": "fas fa-brain",
+        "color": "#6366f1",
+        "progress": 75,
+        "description": "Build foundational anatomy knowledge through systematic learning",
+        "modules": 10,
+        "completedModules": 7,
+        "totalQuestions": 150,
+        "completedQuestions": 112,
+        "category": "Anatomy Fundamentals",
+        "duration": "8 weeks",
+        "level": "Beginner to Intermediate",
+        "objectives": [
+            "Understand human body structure",
+            "Master anatomical terminology",
+            "Identify major organs and systems"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Physiology Deep Dive",
+        "icon": "fas fa-heartbeat",
+        "color": "#06b6d4",
+        "progress": 45,
+        "description": "Understand body systems and functions in depth",
+        "modules": 12,
+        "completedModules": 5,
+        "totalQuestions": 180,
+        "completedQuestions": 81,
+        "category": "Physiology",
+        "duration": "10 weeks",
+        "level": "Intermediate",
+        "objectives": [
+            "Learn cellular physiology",
+            "Understand organ system functions",
+            "Master homeostatic mechanisms"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Clinical Pathology",
+        "icon": "fas fa-virus",
+        "color": "#10b981",
+        "progress": 30,
+        "description": "Study diseases, diagnostics, and pathological processes",
+        "modules": 8,
+        "completedModules": 2,
+        "totalQuestions": 120,
+        "completedQuestions": 36,
+        "category": "Pathology",
+        "duration": "6 weeks",
+        "level": "Intermediate to Advanced",
+        "objectives": [
+            "Understand disease mechanisms",
+            "Learn diagnostic techniques",
+            "Study common pathologies"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Pharmacology",
+        "icon": "fas fa-pills",
+        "color": "#f59e0b",
+        "progress": 20,
+        "description": "Master drug mechanisms, effects, and therapeutic uses",
+        "modules": 6,
+        "completedModules": 1,
+        "totalQuestions": 90,
+        "completedQuestions": 18,
+        "category": "Pharmacology",
+        "duration": "5 weeks",
+        "level": "Intermediate",
+        "objectives": [
+            "Learn drug classifications",
+            "Understand pharmacokinetics",
+            "Master therapeutic applications"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Medical Imaging",
+        "icon": "fas fa-x-ray",
+        "color": "#8b5cf6",
+        "progress": 15,
+        "description": "Learn radiology, imaging techniques, and interpretation",
+        "modules": 4,
+        "completedModules": 0,
+        "totalQuestions": 60,
+        "completedQuestions": 9,
+        "category": "Radiology",
+        "duration": "4 weeks",
+        "level": "Beginner",
+        "objectives": [
+            "Understand imaging modalities",
+            "Learn normal radiographic anatomy",
+            "Identify common abnormalities"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Emergency Medicine",
+        "icon": "fas fa-ambulance",
+        "color": "#ef4444",
+        "progress": 10,
+        "description": "Critical care, emergency procedures, and trauma management",
+        "modules": 5,
+        "completedModules": 0,
+        "totalQuestions": 75,
+        "completedQuestions": 7,
+        "category": "Emergency Medicine",
+        "duration": "5 weeks",
+        "level": "Advanced",
+        "objectives": [
+            "Learn emergency assessment",
+            "Master life-saving procedures",
+            "Understand trauma management"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "EMBRYO",
+        "icon": "fas fa-ambulance",
+        "color": "#ef4444",
+        "progress": 100,
+        "description": "Critical care, emergency procedures, and trauma management",
+        "modules": 5,
+        "completedModules": 0,
+        "totalQuestions": 75,
+        "completedQuestions": 7,
+        "category": "EMBRYO",
+        "duration": "51 weeks",
+        "level": "BEST",
+        "objectives": [
+            "Learn emergency assessment",
+            "Master life-saving procedures",
+            "Understand trauma management"
+        ]
+    }
+]
