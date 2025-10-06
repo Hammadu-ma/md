@@ -264,7 +264,7 @@ async function loadCourseData() {
         coursesData = await coursesResponse.json();
        
         // Load course questions
-        const questionsResponse = await fetch('./data/course-questions.json');
+        const questionsResponse = await fetch('./course-questions.json');
         courseQuestions = await questionsResponse.json();
        
         console.log('Course data loaded successfully');
